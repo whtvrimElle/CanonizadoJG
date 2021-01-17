@@ -253,7 +253,7 @@ img{
     padding-top: 20px;
 }
 
-.about__cv-btn .block a{
+.about__a{
     border-radius: 4px;
     color: #313131;
     border: 1px solid #313131;
@@ -267,7 +267,7 @@ img{
     background-color: transparent;
 }
 
-.about__cv-btn .block a:hover{
+.about_a:hover{
     background-color: #350808;
     color: #35080869;
 }
