@@ -32,7 +32,6 @@
     }
 }
 
-
 /* ====== MARGINS ====== */
 :root{
     --mb-1: .5rem;
@@ -48,7 +47,7 @@
 
 /* ====== BASE ====== */
 *,::before,::after{
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -86,7 +85,7 @@ img{
     position: relative;
     font-size: var(--h2-font-size);
     color: var(--dark-color);
-    margin: var(--mb-4);
+    margin: var(--mb-4) 0;
     text-align: center;
 }
 .section-title::after{
