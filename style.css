@@ -120,8 +120,33 @@ img{
     background-color: var(--first-color);
 }
 /* ====== NAVIGATION ====== */
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+    .nav__menu{
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 80%;
+        height: 100%;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, .3);
+        transition: .5s;
+        backdrop-filter: blur(10px);
 
-
+    }
+}
+.nav__item{
+    margin-bottom: var(--mb-4);
+}
+.nav__link{
+    position: relative;
+    color: var(--dark-color);
+}
 /* ====== SHOW MENU ====== */
 
 
