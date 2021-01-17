@@ -255,8 +255,8 @@ img{
 
 .about__a{
     border-radius: 4px;
-    color: #313131;
-    border: 1px solid #313131;
+    color: #3b0d0d;
+    border: 1px solid #3b0d0d;
     padding: 12px 25px;
     text-decoration: none;
     display: inline-block;
@@ -327,6 +327,8 @@ img{
     right: 0;
     top: -30px;
 }
+.bscpeskills__img img{
+    border-radius: .5rem;
 
 /* .skills__container{
     row-gap: 2rem;
