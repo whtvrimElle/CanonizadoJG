@@ -129,7 +129,7 @@ img{
     .nav__menu{
         position: fixed;
         top: var(--header-height);
-        right: 0;
+        right: -100%;
         width: 80%;
         height: 100%;
         padding: 2rem;
@@ -158,12 +158,19 @@ img{
     cursor: pointer;
 }
 /* ====== SHOW MENU ====== */
-
+.show{
+    right: 0;
+}
 
 /* ====== ACTIVE MENU ====== */
 
 
 /* ====== HOME ====== */
+
+
+/* ====== ABOUT ====== */
+
+/* ====== SKILLS ====== */
 
 
 /* ====== ABOUT ====== */
