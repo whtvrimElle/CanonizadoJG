@@ -249,27 +249,18 @@ img{
     color: var(--first-color);
 }
 
-.about__cv-btn{
-    padding-top: 20px;
-}
-
-.about__a{
-    border-radius: 4px;
-    color: #3b0d0d;
-    border: 1px solid #3b0d0d;
-    padding: 12px 25px;
-    text-decoration: none;
+.about_cv{
     display: inline-block;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 600;
-    transition: all .5s ease;
-    background-color: transparent;
+    font-size: var(--small-font-size);
+    margin-right: var(--mb-2);
+    margin-bottom: var(--mb-3);
+    padding: .25rem .5rem;
+    background-color: var(--white-color);
+    border-radius: .25rem;
 }
-
-.about_a:hover{
-    background-color: #350808;
-    color: #35080869;
+.about_cv:hover{
+    background-color: var(--first-color);
+    color: var(--white-color);
 }
 
 /* ===== SKILLS =====*/
