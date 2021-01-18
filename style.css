@@ -252,8 +252,8 @@ img{
 .about__cv{
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-right: var(--mb-2);
-    margin-bottom: var(--mb-3);
+    margin-right: var(--mb-3);
+    margin-bottom: var(--mb-2);
     padding: .25rem .5rem;
     background-color: var(--white-color);
     border-radius: .25rem;

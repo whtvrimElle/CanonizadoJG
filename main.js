@@ -77,3 +77,12 @@ sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
+/*GALLERY BOOTSTRAP*/
+var numberArray = ['1', '2', '3', '4', '5', '6'];
+for (var i = 0; i < numberArray.length; i++){
+    let imageIdTag = "#photo" + numberArray[i];
+      $(imageIdTag).click(function() {
+          let srcLink = $(imageIdTag + ' img').attr('src');
+            $('#modalImage').attr('src', srcLink)
+            $('#thisModal').modal('show');
+      });
