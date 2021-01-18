@@ -385,9 +385,10 @@ img{
 .footer__social{
     font-size: 1.4rem;
     margin-right: var(--mb-1);
+    color: grey;
 }
 .footer__social:hover{
-    color: var(--first-color);
+    color: var(--white-color);
 }
 
 /* ===== MEDIA QUERIES =====*/
