@@ -59,7 +59,7 @@ sr.reveal('.about__img', {delay: 500})
 sr.reveal('.about__subtitle', {delay: 300})
 sr.reveal('.about__profession', {delay: 400})
 sr.reveal('.about__text', {delay: 500})
-sr.reveal('.about__cv-btn', {delay: 600, interval: 200})
+sr.reveal('.about__cv', {delay: 600, interval: 200})
 sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 
 /*SCROLL SKILLS*/
