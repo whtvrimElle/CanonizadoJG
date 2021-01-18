@@ -249,7 +249,7 @@ img{
     color: var(--first-color);
 }
 
-.about_cv{
+.about__cv{
     display: inline-block;
     font-size: var(--small-font-size);
     margin-right: var(--mb-2);
@@ -258,7 +258,7 @@ img{
     background-color: var(--white-color);
     border-radius: .25rem;
 }
-.about_cv:hover{
+.about__cv:hover{
     background-color: var(--first-color);
     color: var(--white-color);
 }
