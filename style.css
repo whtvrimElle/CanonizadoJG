@@ -254,7 +254,7 @@ img {
 }
 
 .about__cv {
-  display: inline-block;
+  /* display: inline-block; */
   font-weight: bolder;
   font-size: var(--small-font-size);
   margin-right: var(--mb-3);
