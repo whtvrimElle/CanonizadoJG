@@ -259,12 +259,12 @@ img {
   margin-right: var(--mb-3);
   margin-bottom: var(--mb-2);
   padding: 0.25rem 0.5rem;
-  background-color: var(--white-color);
+  background-color: transparent;
   border-radius: 0.25rem;
 }
 .about__cv:hover {
-  background-color: var(--first-color);
-  color: var(--white-color);
+  background-color: var(--white-color);
+  color: var(--first-color);
 }
 
 /* ===== SKILLS =====*/
