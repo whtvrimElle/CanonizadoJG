@@ -136,13 +136,11 @@ function nameVerify(){
     if (state.children().length >= 1) {
         $(state).empty();
         $(state).html('Send');
-
-    }else{
-
+      }
+    else{
         $(state).empty();
         var loadingElement = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
         $(state).append(loadingElement);
-
     }
 
   }
@@ -188,3 +186,4 @@ $( "#contactForm" ).submit(function() {
         }
     
     }
+ }
