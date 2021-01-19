@@ -264,8 +264,8 @@ img {
   border-radius: 0.25rem;
 }
 .about__cv:hover {
-  background-color: var(--first-color);
-  color: var(--white-color);
+  /* background-color: var(--first-color); */
+  color: var(--first-color);
 }
 
 /* ===== SKILLS =====*/
