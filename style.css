@@ -342,6 +342,7 @@ img {
   margin-bottom: var(--mb-2);
 }
 .contact__inputs {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 1rem;
