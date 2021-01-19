@@ -276,6 +276,7 @@ img {
 
 .skills__container {
   row-gap: 2rem;
+  align-content: center;
 }
 .skills__subtitle {
   color: var(--first-color);
