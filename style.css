@@ -341,7 +341,8 @@ img {
 
 /* ===== CONTACT =====*/
 .contact__container {
-  row-gap: 2rem;
+  /* row-gap: 2rem; */
+  justify-items: center;
 }
 .contact__subtitle {
   font-size: var(--normal-font-size);
