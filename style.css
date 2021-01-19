@@ -254,18 +254,18 @@ img {
 }
 
 .about__cv {
-  /* display: inline-block; */
+  display: inline-block;
   font-weight: bolder;
   font-size: var(--small-font-size);
   margin-right: var(--mb-3);
   margin-bottom: var(--mb-2);
-  /* padding: 0.25rem 0.5rem; */
-  background-color: rgba(0, 0, 0, 0);
+  padding: 0.25rem 0.5rem;
+  background-color: var(--white-color);
   border-radius: 0.25rem;
 }
 .about__cv:hover {
-  /* background-color: var(--first-color); */
-  color: var(--first-color);
+  background-color: var(--first-color);
+  color: var(--white-color);
 }
 
 /* ===== SKILLS =====*/
