@@ -93,97 +93,97 @@ for (var i = 0; i < numberArray.length; i++) {
 }
 
 /* VALIDATION */
-const nameIn = document.forms["contact"]["nameIn"];
-const emailIn = document.forms["contact"]["emailIn"];
-const messageIn = document.forms["contact"]["messageIn"];
+// const nameIn = document.forms["contact"]["nameIn"];
+// const emailIn = document.forms["contact"]["emailIn"];
+// const messageIn = document.forms["contact"]["messageIn"];
 
-const nameError = document.getElementById("nameError");
-const emailError = document.getElementById("emailError");
-const messageError = document.getElementById("messageError");
+// const nameError = document.getElementById("nameError");
+// const emailError = document.getElementById("emailError");
+// const messageError = document.getElementById("messageError");
 
-nameIn.addEventListener("blur", nameVerify, true);
-emailIn.addEventListener("blur", emailVerify, true);
-messageIn.addEventListener("blur", messageVerify, true);
+// nameIn.addEventListener("blur", nameVerify, true);
+// emailIn.addEventListener("blur", emailVerify, true);
+// messageIn.addEventListener("blur", messageVerify, true);
 
-function nameVerify(){
-    if (nameIn.value != ""){
-        nameIn.style.border = "";
-        nameError.innerHTML = "";
-      return true;
-    }
-  }
+// function nameVerify(){
+//     if (nameIn.value != ""){
+//         nameIn.style.border = "";
+//         nameError.innerHTML = "";
+//       return true;
+//     }
+//   }
   
-  function emailVerify(){
-    if (emailIn.value != ""){
-        emailIn.style.border = "";
-        emailError.innerHTML = "";
-      return true;
-    }
-  }
+//   function emailVerify(){
+//     if (emailIn.value != ""){
+//         emailIn.style.border = "";
+//         emailError.innerHTML = "";
+//       return true;
+//     }
+//   }
   
-  function messageVerify(){
-    if (messageIn.value != ""){
-        messageIn.style.border = "";
-        messageError.innerHTML = "";
-      return true;
-    }
-  }
+//   function messageVerify(){
+//     if (messageIn.value != ""){
+//         messageIn.style.border = "";
+//         messageError.innerHTML = "";
+//       return true;
+//     }
+//   }
 
-  function loadingChange(){
+//   function loadingChange(){
 
-    var state = $("#submitContact");
+//     var state = $("#submitContact");
     
-    if (state.children().length >= 1) {
-        $(state).empty();
-        $(state).html('Send');
-      }
-    else{
-        $(state).empty();
-        var loadingElement = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
-        $(state).append(loadingElement);
-    }
+//     if (state.children().length >= 1) {
+//         $(state).empty();
+//         $(state).html('Send');
+//       }
+//     else{
+//         $(state).empty();
+//         var loadingElement = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
+//         $(state).append(loadingElement);
+//     }
 
-  }
+//   }
 
-$( "#contactForm" ).submit(function() {
+// $( "#contactForm" ).submit(function() {
     
-    if (nameIn.value == "" || emailIn.value == "" || message.value == ""){
+//     if (nameIn.value == "" || emailIn.value == "" || message.value == ""){
 
-        var variables = [nameIn, emailIn, messageIn];
-        var errors = [nameError, emailError, messageError];
-        var countErrors = [];
+//         var variables = [nameIn, emailIn, messageIn];
+//         var errors = [nameError, emailError, messageError];
+//         var countErrors = [];
 
-        for(i = 0; i < variables.length; i++){
+//         for(i = 0; i < variables.length; i++){
 
-          if (variables[i].value == ""){
+//           if (variables[i].value == ""){
 
-            variables[i].style.border = "1.3px solid red";
-              switch (i){
+//             variables[i].style.border = "1.3px solid red";
+//               switch (i){
 
-                case 0:
-                    errors[i].textContent = "Please enter the Name";
-                    break;
-                case 1:
-                    errors[i].textContent = "Please enter the Email";
-                    break;
-                case 2:
-                    errors[i].textContent = "Please enter the Message";
-                    break;
+//                 case 0:
+//                     errors[i].textContent = "Please enter the Name";
+//                     break;
+//                 case 1:
+//                     errors[i].textContent = "Please enter the Email";
+//                     break;
+//                 case 2:
+//                     errors[i].textContent = "Please enter the Message";
+//                     break;
 
-              }
+//               }
 
-            variables[i].focus();
-            countErrors.push(i);
+//             variables[i].focus();
+//             countErrors.push(i);
 
-          }
+//           }
 
-        }
+//         }
 
-        if(countErrors.length > 0){
+//         if(countErrors.length > 0){
         
-            return false;
+//             return false;
         
-        }
+//         }
     
-    }
- }
+//     }
+//  }

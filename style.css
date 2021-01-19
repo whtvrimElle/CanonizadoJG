@@ -352,7 +352,7 @@ img {
   padding: 0.8rem;
   outline: none;
   border: 1.5px solid var(--dark-color);
-  /* font-size: var(--normal-font-size); */
+  font-size: var(--normal-font-size);
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
 }
