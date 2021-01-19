@@ -367,6 +367,7 @@ img {
 .contact__button {
   display: block;
   background-color: transparent;
+  border: 1px solid var(--first-color);
   color: var(--first-color);
   padding: 0.75rem 2.5rem;
   margin-left: auto;
