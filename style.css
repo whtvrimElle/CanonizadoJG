@@ -256,8 +256,10 @@ img {
 .about__cv {
   /* display: inline-block; */
   font-size: var(--small-font-size);
-  margin-right: var(--mb-3);
-  margin-bottom: var(--mb-2);
+  font-weight: bold;
+  margin: 0 var(--mb-1);
+  /* margin-right: var(--mb-3);
+  margin-bottom: var(--mb-2); */
   /* padding: 0.25rem 0.5rem;
   background-color: transparent;
   border-radius: 0.25rem; */
