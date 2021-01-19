@@ -290,8 +290,9 @@ img {
   color: var(--white-color);
 }
 .skills__img{
-  border-style: dotted;
+  border-style: solid;
   border-color: var(--white-color);
+
 }
 .skills__img img {
   border-radius: 0.5rem;
