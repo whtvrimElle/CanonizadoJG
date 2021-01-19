@@ -288,6 +288,7 @@ img {
   padding: 0.25rem 0.5rem;
   background-color: var(--white-color);
   border-radius: 0.25rem;
+  transition: all .5s ease;
 }
 .skills__name:hover {
   background-color: var(--first-color);
