@@ -276,7 +276,6 @@ img {
 
 .skills__container {
   row-gap: 2rem;
-  align-content: center;
 }
 .skills__subtitle {
   color: var(--first-color);
@@ -343,6 +342,7 @@ img {
 /* ===== CONTACT =====*/
 .contact__container {
   row-gap: 2rem;
+  align-content: center;
 }
 .contact__subtitle {
   font-size: var(--normal-font-size);
