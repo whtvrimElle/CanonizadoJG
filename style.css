@@ -346,12 +346,10 @@ img {
 .contact__subtitle {
   font-size: var(--normal-font-size);
   color: var(--first-color);
-  text-align: center;
 }
 .contact__text {
   display: inline-block;
   margin-bottom: var(--mb-2);
-  align-content: center;
 }
 /* .contact__inputs {
   display: grid;
