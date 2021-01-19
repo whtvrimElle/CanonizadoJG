@@ -351,6 +351,13 @@ img {
   display: inline-block;
   margin-bottom: var(--mb-2);
 }
+.contact__img{
+  border: double;
+  border-color: var(--first-color);
+}
+.contact__img img {
+  border-radius: 0.5rem;
+}
 /* .contact__inputs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
