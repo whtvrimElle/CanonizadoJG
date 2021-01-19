@@ -290,7 +290,7 @@ img {
   color: var(--white-color);
 }
 .skills__img{
-  border-style: solid;
+  border: ridge;
   border-color: var(--white-color);
 
 }
